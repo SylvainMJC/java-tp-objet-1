@@ -10,5 +10,10 @@ public class Personne {
         this.prenom = prenom;
         this.adressePostale = adressePostale;
     }
+
+    public Personne(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
 }
 
